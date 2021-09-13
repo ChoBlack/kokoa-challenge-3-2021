@@ -1,1 +1,3 @@
-# kokoa-challenge-3-2021
+# GOAL : Make them as similar as possible...
+
+![kokoa-challenge-03](https://user-images.githubusercontent.com/73802576/133040620-ed5948fd-c4b9-4915-ad95-caa9ac997bfd.gif)
