@@ -8,27 +8,28 @@ h1 {
 }
 
 .color-box {
-  width: 200px;
+  width: 240px;
   height: 400px;
   background-color: tomato;
 }
 
-.first-row {
+.parent {
   display: flex;
   justify-content: center;
   gap: 30px;
-  /* flex-direction: column; */
-  /* background-color: tomato; */
-}
-.second-row {
-  display: flex;
-  background-color: burlywood;
+  margin: 30px;
+  flex-wrap: wrap;
 }
 
-.first-column {
+.color-box:first-child {
   background-color: tomato;
 }
-
-.second-column {
+.color-box:nth-child(2) {
   background-color: teal;
+}
+.color-box:nth-child(3) {
+  background-color: burlywood;
+}
+.color-box:last-child {
+  background-color: thistle;
 }
