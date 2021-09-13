@@ -1,5 +1,5 @@
 body {
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 h1 {
@@ -7,8 +7,28 @@ h1 {
   /* justify-content: center; */
 }
 
-.first-row {
+.color-box {
   width: 200px;
-  height: 500px;
+  height: 400px;
   background-color: tomato;
+}
+
+.first-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  /* flex-direction: column; */
+  /* background-color: tomato; */
+}
+.second-row {
+  display: flex;
+  background-color: burlywood;
+}
+
+.first-column {
+  background-color: tomato;
+}
+
+.second-column {
+  background-color: teal;
 }
