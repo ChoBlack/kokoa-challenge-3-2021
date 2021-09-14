@@ -1,9 +1,13 @@
 body {
   height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-  text-align: center;
+  /* text-align: center; */
   /* justify-content: center; */
 }
 
@@ -11,6 +15,7 @@ h1 {
   width: 240px;
   height: 400px;
   background-color: tomato;
+  position: relative;
 }
 
 .parent {
@@ -41,7 +46,7 @@ span {
 
 .text-box {
   background-color: white;
-  position: relative;
+  position: absolute;
   top: 30px;
   width: 100%;
   height: 30%;
